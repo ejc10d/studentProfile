@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-import '';
+import './css/style.css'
 
-function Header() {
+class Header extends Component {
+    render() {
     return (
         <header className='header'>
             <h1>Eliot's React Profile</h1>
+
         </header>
     )
+}
 }
 
 export default Header;
