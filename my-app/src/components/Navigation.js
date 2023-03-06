@@ -1,10 +1,23 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
+// import { link } from 'react-router-dom';
 
 function Navigation() {
     return (
-        <nav>
-<p>This is a test nav bar.</p>
+        <nav className="">
+<ul className='display: flex space-x-10 justify-center m-3'>
+    <li>
+        <a className='p-2 bg-transparent hover:bg-lime-300 hover:text-slate-900 rounded'href='#about'>About</a>
+    </li>
+    <li>
+        <a className='p-2 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded'href='#portfolio'>Portfolio</a>
+    </li>
+    <li>
+        <a className='p-2 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded'href='#contact'>Contact</a>
+    </li>
+    <li>
+        <a className='p-2 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded'href='#resume'>Resume</a>
+    </li>
+</ul>
 <hr />
         </nav>
     )

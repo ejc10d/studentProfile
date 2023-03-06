@@ -20,9 +20,9 @@ function Header() {
 
     return (
         <div>
-            <nav className='navBar'>
-
-            </nav>
+            <div className=''>
+            <h1 className='text-center text-3xl m-6'>Eliot Crandall</h1>
+            </div>
             <Navigation 
             currentPage={currentPage}
             handlePageChange={handlePageChange} />
