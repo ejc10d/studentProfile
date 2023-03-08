@@ -1,27 +1,26 @@
 import React from 'react';
-// import { link } from 'react-router-dom';
 
-function Navigation(props) {
-    const { currentTab, setCurrentTab } = props
+
+export default function Navigation() {
     return (
-        <nav className="">
-            <ul className='display: flex space-x-10 justify-center m-3'>
-                <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
-                    <span onClick={() => setCurrentTab('about')}>About</span>
-                </li>
-                <li className='p-2 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded' href='#portfolio'>
-                    <span onClick={() => setCurrentTab('portfolio')}>Portfolio</span>
-                </li>
-                <li className='p-2 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded' href='#contact'>
-                    <span onClick={() => setCurrentTab('contact')}>Contact</span>
-                </li>
-                <li className='p-2 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded' href='#resume'>
-                    <span onClick={() => setCurrentTab('resume')}>Resume</span>
-                </li>
-            </ul>
+        <nav className='main-header-menu m-2'>
+            <section className='display: flex space-x-10 justify-center m-1'>
+                <div className='p-1 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded'>
+                    <a href='#about'>About</a>
+                </div>
+                <div className='p-1 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded'>
+                    <a href='#portfolio'>Portfolio</a>
+                </div>
+                <div className='p-1 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded'>
+                    <a href='#contact'>Contact</a>
+                </div>
+                <div className='p-1 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded'>
+                    <a href='#resume'>Resume</a>
+                </div>
+            </section>
             <hr />
         </nav>
-    )
+      
+    );
 }
 
-export default Navigation;

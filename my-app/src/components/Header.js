@@ -1,18 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-function Navigation() {
+
+export default function Header() {
+
     return (
-        <nav>
-            <ul>
-                <li><Link to='/about'>About</Link></li>
-                <li><Link to='/portfolio'>Portfolio</Link></li>
-                <li><Link to='/contact'>Contact</Link></li>
-                <li><Link to='/resume'>Resume</Link></li>
-            </ul>
-        </nav>
+        <div className='main-header text-center'>
+            <h1 className='text-5xl m-5'>Eliot Crandall</h1>
+            <hr />
+        </div>
+        
     );
 }
-
-
-export default Header;
