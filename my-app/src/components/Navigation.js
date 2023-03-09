@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 
 export default function Navigation() {
@@ -6,16 +7,16 @@ export default function Navigation() {
         <nav className='main-header-menu m-2'>
             <section className='display: flex space-x-10 justify-center m-1'>
                 <div className='p-1 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded'>
-                    <a href='#about'>About</a>
+                    <NavLink to='/about'>About</NavLink>
                 </div>
                 <div className='p-1 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded'>
-                    <a href='#portfolio'>Portfolio</a>
+                    <NavLink to='/portfolio'>Portfolio</NavLink>
                 </div>
                 <div className='p-1 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded'>
-                    <a href='#contact'>Contact</a>
+                    <NavLink to='/contact'>Contact</NavLink>
                 </div>
                 <div className='p-1 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded'>
-                    <a href='#resume'>Resume</a>
+                    <NavLink to='/resume'>Resume</NavLink>
                 </div>
             </section>
             <hr />

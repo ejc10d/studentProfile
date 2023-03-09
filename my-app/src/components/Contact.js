@@ -27,9 +27,9 @@ const sendMessage = (e) => {
 };
 
 return (
-    <section id='contact'className='w-96'>
+    <section id='contact'className="flex flex-col justify-center items-center m-10">
         <h2 className='text-3xl m-2'>Contact Me</h2>
-        <form className='flex flex-col' ref={form} onSubmit={sendMessage}>
+        <form className='flex flex-col w-96' ref={form} onSubmit={sendMessage}>
             <input
             className='form_input p-2 m-2 rounded bg-transparent outline focus:outline-gray-400' type='text' name='name' placeholder='Name' required>
             </input>
@@ -39,7 +39,7 @@ return (
             <textarea
             className='form_text p-2 m-2 rounded bg-transparent outline focus:outline-gray-400 text-justify' name='message' rows='6' placeholder='Message' required>
             </textarea>
-            <button type='submit' className='p-2 m-2 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded outline'>Send Message</button>
+            <button type='submit' className='p-2 w-32 m-2 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded outline'>Send Message</button>
         </form>
     </section>
 )
