@@ -19,9 +19,9 @@ code {
 }
 
 .navbutton  {
-  padding: 2px;
+  padding: 3px;
 }
-.navbutton:hover {
+.active, .navbutton:hover {
   background-color: rgb(196, 255, 107);
   color: rgb(77, 77, 77);
   border-radius: 6px;

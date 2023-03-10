@@ -6,24 +6,23 @@ export default function Navigation() {
     return (
         <nav className='main-header-menu m-2'>
             <section className='display: flex space-x-10 justify-center m-1'>
-                <div className='navbutton'>
-                    <NavLink to='/about'
-                    activeClass={"bg-lime-300"}
-                    >About</NavLink>
-                </div>
-                <div className='navbutton'>
-                    <NavLink to='/portfolio'>Portfolio</NavLink>
-                </div>
-                <div className='navbutton'>
-                    <NavLink to='/contact'>Contact</NavLink>
-                </div>
-                <div className='navbutton'>
-                    <NavLink to='/resume'>Resume</NavLink>
-                </div>
+
+                <NavLink to='/about' className={'navbutton'}
+                    activeClassName="active">About</NavLink>
+
+                <NavLink to='/portfolio' className={'navbutton'}
+                    activeClassName="active">Portfolio</NavLink>
+
+                <NavLink to='/contact' className={'navbutton'}
+                    activeClassName="active">Contact</NavLink>
+
+                <NavLink to='/resume' className={'navbutton'}
+                    activeClassName="active">Resume</NavLink>
+
             </section>
             <hr />
         </nav>
-      
+
     );
 }
 
