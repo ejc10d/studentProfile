@@ -39,7 +39,7 @@ return (
             <textarea
             className='form_text p-2 m-2 rounded bg-transparent outline focus:outline-gray-400 text-justify' name='message' rows='6' placeholder='Message' required>
             </textarea>
-            <button type='submit' className='p-2 w-32 m-2 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded outline'>Send Message</button>
+            <button type='submit' className='p-2 w-32 m-2 button'>Send Message</button>
         </form>
     </section>
 )

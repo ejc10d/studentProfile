@@ -1,4 +1,5 @@
 import React from "react";
+const myResume = require('../assets/Resume-EliotCrandall.pdf')
 
 function Resume () {
     return (
@@ -7,7 +8,7 @@ function Resume () {
             {/* <img className="profilePhoto" src={process.env.PUBLIC_URL + '/img/profilePhoto.jpg'} alt="profile photo"/> */}
             <div className="content m-2"> 
             </div>
-            <button type='submit' className='p-2 w-32 m-2 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded outline'>Download Now</button>
+            <a href={myResume} download className='p-2 w-32 m-2 button'>Download Now</a>
         </div>
     );
 }

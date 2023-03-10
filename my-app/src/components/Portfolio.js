@@ -65,8 +65,8 @@ function Portfolio () {
                             <img src={image} alt={title} className="max-w-sm mb-2"></img>
                         </div>
                         <div className="m-2">
-                            <a href={github} className='outline p-1 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded m-3' target='_blank' rel='noreferrer'>GitHub</a>
-                            <a href={demo} className="outline p-1 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded m-3" target="_blank"
+                            <a href={github} className='button m-2' target='_blank' rel='noreferrer'>GitHub</a>
+                            <a href={demo} className="button m-2" target="_blank"
                             rel='noreferrer'>
                                 Demo
                             </a>

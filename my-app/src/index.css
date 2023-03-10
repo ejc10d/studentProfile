@@ -17,3 +17,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbutton  {
+  padding: 2px;
+}
+.navbutton:hover {
+  background-color: rgb(196, 255, 107);
+  color: rgb(77, 77, 77);
+  border-radius: 6px;
+  /* p-1 bg-transparent hover:bg-lime-300  hover:text-slate-900 rounded */
+}
+
+.button {
+  padding: 5px;
+  border: 1px solid  white;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background-color: rgb(196, 255, 107);
+  color: rgb(77, 77, 77);
+  border-radius: 6px;
+}
+
+.profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
