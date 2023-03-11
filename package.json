@@ -1,10 +1,11 @@
 {
   "name": "student-profile",
   "version": "0.1.0",
-  "homepage": "https://ejc10d.github.io/studentProfile/",
   "private": true,
+  "homepage": "https://ejc10d.github.io/studentProfile/",
   "dependencies": {
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.8.0",
