@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/studentProfile/static/css/main.e6790c56.css",
+    "main.js": "/studentProfile/static/js/main.a172458e.js",
+    "static/media/Image1.jpg": "/studentProfile/static/media/Image1.96c59290cad8b2355e57.jpg",
+    "static/media/Image2.jpg": "/studentProfile/static/media/Image2.9621845624a5b2ee4ae2.jpg",
+    "static/media/Image5.jpg": "/studentProfile/static/media/Image5.9fcf1ba97240b8a4a44c.jpg",
+    "static/media/Image6.jpg": "/studentProfile/static/media/Image6.b630f8ef9615c9e0a4e8.jpg",
+    "static/media/IMG_2542.jpg": "/studentProfile/static/media/IMG_2542.9e6396a6981b12e2fd45.jpg",
+    "static/media/Image3.jpg": "/studentProfile/static/media/Image3.f83ac866df11fe5dda1f.jpg",
+    "static/media/Image4.jpg": "/studentProfile/static/media/Image4.80811042e8ad29e30891.jpg",
+    "static/media/Resume-EliotCrandall.pdf": "/studentProfile/static/media/Resume-EliotCrandall.0b4fd78779eba9375653.pdf",
+    "index.html": "/studentProfile/index.html",
+    "main.e6790c56.css.map": "/studentProfile/static/css/main.e6790c56.css.map",
+    "main.a172458e.js.map": "/studentProfile/static/js/main.a172458e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6790c56.css",
+    "static/js/main.a172458e.js"
+  ]
+}
