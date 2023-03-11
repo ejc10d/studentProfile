@@ -14,7 +14,7 @@ This is a React Student Portfio that demonstrates the React capabilities of the 
 
 ## Screenshot
 
-The following shows the deployed application: ![deployed](../studentProfile/my-app/src/assets/images/ScreenShot.jpg)
+The following shows the deployed application: ![deployed](../studentProfile/src/assets/images/ScreenShot.jpg)
 
 ## Link
 
