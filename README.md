@@ -18,7 +18,7 @@ The following shows the deployed application: ![deployed](../studentProfile/my-a
 
 ## Link
 
-This [link](https://ejc10d.github.io/about) will take you to the depolyed application.
+This [link](https://ejc10d.github.io/studentProfile) will take you to the depolyed application.
 
 
 ## License
