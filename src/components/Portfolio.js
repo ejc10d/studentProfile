@@ -1,5 +1,5 @@
 import React from "react";
-const Image1 = require('../assets/images/Image1.jpg');
+const Image1 = require('../assets/images/Image1-2.jpg');
 const Image2 = require('../assets/images/Image2.jpg');
 const Image3 = require('../assets/images/Image3.jpg');
 const Image4 = require('../assets/images/Image4.jpg');
