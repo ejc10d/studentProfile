@@ -5,7 +5,7 @@ function About () {
     return (
         <div className="outline rounded flex flex-col justify-center items-center m-10 p-6" >
             <h2 className="text-3xl m-2">About Me</h2>
-            <img className="profile" alt="profile" src={require('../assets/images/IMG_2542.jpg')} />
+            <img className="profile" alt="profile" src={require('../assets/images/headshot.png')} />
             <p className="content m-2 max-w-sm text-center">
             Hello World! < br />
             My name is Eliot and I'm an aspiring web developer. <br />
