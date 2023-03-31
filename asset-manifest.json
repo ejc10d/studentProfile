@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/studentProfile/static/css/main.5333a7c1.css",
-    "main.js": "/studentProfile/static/js/main.57f52a9a.js",
+    "main.css": "/studentProfile/static/css/main.6c53d841.css",
+    "main.js": "/studentProfile/static/js/main.434efeea.js",
     "static/media/Image7.jpg": "/studentProfile/static/media/Image7.85b96da2a3dd27f92ff9.jpg",
-    "static/media/Image1.jpg": "/studentProfile/static/media/Image1.48b6996f09addfdce157.jpg",
+    "static/media/Image1-2.jpg": "/studentProfile/static/media/Image1-2.48b6996f09addfdce157.jpg",
+    "static/media/headshot.png": "/studentProfile/static/media/headshot.6be8c5c36c210c501007.png",
     "static/media/Image2.jpg": "/studentProfile/static/media/Image2.9621845624a5b2ee4ae2.jpg",
     "static/media/Image5.jpg": "/studentProfile/static/media/Image5.9fcf1ba97240b8a4a44c.jpg",
     "static/media/Image6.jpg": "/studentProfile/static/media/Image6.b630f8ef9615c9e0a4e8.jpg",
-    "static/media/IMG_2542.jpg": "/studentProfile/static/media/IMG_2542.9e6396a6981b12e2fd45.jpg",
     "static/media/Image3.jpg": "/studentProfile/static/media/Image3.f83ac866df11fe5dda1f.jpg",
     "static/media/Image4.jpg": "/studentProfile/static/media/Image4.80811042e8ad29e30891.jpg",
     "static/media/Resume-EliotCrandall.pdf": "/studentProfile/static/media/Resume-EliotCrandall.0b4fd78779eba9375653.pdf",
     "index.html": "/studentProfile/index.html",
-    "main.5333a7c1.css.map": "/studentProfile/static/css/main.5333a7c1.css.map",
-    "main.57f52a9a.js.map": "/studentProfile/static/js/main.57f52a9a.js.map"
+    "main.6c53d841.css.map": "/studentProfile/static/css/main.6c53d841.css.map",
+    "main.434efeea.js.map": "/studentProfile/static/js/main.434efeea.js.map"
   },
   "entrypoints": [
-    "static/css/main.5333a7c1.css",
-    "static/js/main.57f52a9a.js"
+    "static/css/main.6c53d841.css",
+    "static/js/main.434efeea.js"
   ]
 }
