@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/studentProfile/static/css/main.c15d14fc.css",
-    "main.js": "/studentProfile/static/js/main.54aa62dd.js",
+    "main.js": "/studentProfile/static/js/main.7b5ac1a8.js",
     "static/media/Image7.jpg": "/studentProfile/static/media/Image7.85b96da2a3dd27f92ff9.jpg",
     "static/media/Image1-2.jpg": "/studentProfile/static/media/Image1-2.48b6996f09addfdce157.jpg",
     "static/media/headshot.png": "/studentProfile/static/media/headshot.6be8c5c36c210c501007.png",
@@ -13,10 +13,10 @@
     "static/media/Resume-EliotCrandall.pdf": "/studentProfile/static/media/Resume-EliotCrandall.0b4fd78779eba9375653.pdf",
     "index.html": "/studentProfile/index.html",
     "main.c15d14fc.css.map": "/studentProfile/static/css/main.c15d14fc.css.map",
-    "main.54aa62dd.js.map": "/studentProfile/static/js/main.54aa62dd.js.map"
+    "main.7b5ac1a8.js.map": "/studentProfile/static/js/main.7b5ac1a8.js.map"
   },
   "entrypoints": [
     "static/css/main.c15d14fc.css",
-    "static/js/main.54aa62dd.js"
+    "static/js/main.7b5ac1a8.js"
   ]
 }
