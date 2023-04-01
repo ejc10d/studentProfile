@@ -78,7 +78,7 @@ function Portfolio () {
                         <div className="card">
                         <h3 className="text-center text-2xl">{title}</h3>
                         <div className="card-body grid place-items-center">
-                            <img src={image} alt={title} className="max-w-sm mb-2"></img>
+                            <img src={image} alt={title} className="mb-2 flex shrink"></img>
                         </div>
                         <div className="m-2">
                             <p className="m-4">{description}</p>

@@ -9,10 +9,10 @@ const sendMessage = (e) => {
 
     emailjs
     .sendForm(
-        "service_qjmagad",
-        "templage_utd1ajn",
+        "service_ddd1xbj",
+        "template_0flyste",
         form.current,
-        "-0fBDvvdgcSeYE7uC"
+        "Tfm-EBi_ikLONiSWD"
     )
     .then(
         (result) => {
@@ -27,9 +27,9 @@ const sendMessage = (e) => {
 };
 
 return (
-    <section id='contact'className="flex flex-col justify-center items-center m-10">
-        <h2 className='text-3xl m-2'>Contact Me</h2>
-        <form className='flex flex-col w-96' ref={form} onSubmit={sendMessage}>
+    <section id='contact'className="flex flex-col justify-center items-center m-10 p-6">
+        <h2 className='text-3xl'>Contact Me</h2>
+        <form className='flex flex-col w-96 m-10 p-6' ref={form} onSubmit={sendMessage}>
             <input
             className='form_input p-2 m-2 rounded bg-transparent outline focus:outline-gray-400' type='text' name='name' placeholder='Name' required>
             </input>
