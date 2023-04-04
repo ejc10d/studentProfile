@@ -11,9 +11,9 @@ function About () {
             My name is Eliot and I'm a junior web developer. <br />
             </p>
             <p className='content m-2 max-w-md'>
-            I recetly completed a full-stack coding bootcamp through UCF and hope to pursue a career in this exciting new career. The part that I've come to love about coding is that there is always something more to learn and some new technology to dive into and attempt to understand. 
-            <br/> <br/>
-            I have been intrigued by code for quite some time. I always liked manipulating the code of my MySpace page and getting to see my results show up on the front-end. I discovered HTML's usefulness when I learned some HTML to write some emails for a non-profit when I was younger. And now, I've found an appreciation for the back-end that give web applications purpose.
+            I recently completed a full-stack coding bootcamp through UCF and am pursuing a job in this exciting new career. I have come to understand that in web development there is always room to improve or grow, there will always be new technologies to attempt to implement, and there will always be a need for creative problem solving within the industry. 
+           <br/> <br/>
+            I have been intrigued by coding for quite some time. I always liked tweaking the code of my MySpace page and getting to see my results show up on the front-end. I discovered HTML's usefulness when I learned some HTML to write some emails for a non-profit when I was younger. And now, I've found an appreciation for the back-end that give web applications purpose. Now that I understand the “full-stack” I want to continue to learn and grow as a developer.
             </p>
         </div>
     );
